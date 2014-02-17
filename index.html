@@ -1,1 +1,33 @@
-/var/www/r/index0.html
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+
+image = new Image();
+
+image.onload = function(){
+    document.images.cam.src = this.src;
+    setTimeout("load()",2000);
+}
+image.onerror = function(){
+    setTimeout("load()",1000);
+}
+
+function load()
+{
+    var d=new Date();
+    var n=d.toUTCString(); 
+    image.src = "s.php?time=" + n; 
+} 
+    
+setTimeout("load()",500);
+
+</script>
+<head>
+
+<body>
+<img name="cam">
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-cd /var/www/r/tmp
+cd /var/www/r/tmp2
 
 while true; do
 
@@ -7,6 +7,7 @@ while true; do
     	date
 		cp temp.png diff.png
 		mv temp.png cam.png
+		chmod o+w cam.png
     fi
     sleep 0.5;
     done

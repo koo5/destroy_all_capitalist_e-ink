@@ -1,5 +1,5 @@
 <?php
-$f = "tmp/cam.png";
+$f = "tmp2/cam.png";
 $x = file_get_contents($f);
 if ($x)
 {

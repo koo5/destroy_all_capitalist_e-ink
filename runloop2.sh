@@ -2,7 +2,7 @@ cd /var/www/r/tmp2
 
 while true; do
 
-    scrot temp.png  -u; #-q 1-100
+    ~/bin/scrot temp.png  -u; #-q 1-100
     if ! diff temp.png diff.png; then
     	date
 		cp temp.png diff.png

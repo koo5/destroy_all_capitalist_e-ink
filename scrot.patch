@@ -1,0 +1,13 @@
+diff --git a/src/main.c b/src/main.c
+index 368390f..b626f01 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -461,7 +461,7 @@ scrot_get_geometry(Window target,
+         *client_window = target;
+       }
+ 
+-      XRaiseWindow(disp, target);
++      //XRaiseWindow(disp, target);
+       XSetInputFocus(disp, target, RevertToParent, CurrentTime);
+     }
+   }

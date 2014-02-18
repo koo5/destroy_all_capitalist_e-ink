@@ -1,3 +1,5 @@
+new: swiched to using import instead of scrot. it eats the cpu like crazy. sigh.
+
 so yeah, this work as a sort of cheap vnc on your pocketshit, wifi swindle or whatever other closed source shit out there im gonna fucking kill every person responsible for wasting perfectly usable hardware by crippled software you fuckers.
 
 put it into your webserver directory (/var/www),

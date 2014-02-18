@@ -8,3 +8,11 @@ screenshots active window (watch out, for some weird reason scrot (?) keeps brin
 to the front (wtf?)
 diffs with previous screenshot, if it differs, copies it to cam.php, where s.php grabs it
 and deletes it. So less unnecessary blinking of your e-ink. Im gonna fucking kill every one of you.
+
+patching scrot:
+apt-get install giblib-dev
+git clone https://github.com/dreamer/scrot.git
+apply the patch
+./configure
+make
+

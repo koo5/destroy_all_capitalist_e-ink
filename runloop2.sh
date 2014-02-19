@@ -1,5 +1,9 @@
 cd /var/www/r/tmp2
 
+
+ifconfig | grep "inet addr"
+
+
 while true; do
 
 #    scrot temp.png  -u; #-q 1-100
@@ -13,7 +17,7 @@ while true; do
 		mv temp.png cam.png
 		chmod o+w cam.png
     fi
-    sleep 0.5;
+    sleep 1;
     done
 
 
